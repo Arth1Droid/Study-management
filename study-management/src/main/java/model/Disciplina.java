@@ -13,6 +13,13 @@ public class Disciplina {
 		this.horasPlanejadas = horasPlanejadas;
 	}
 
+	public Disciplina(long long1, String string) {
+		this.id = id;
+		this.nome = nome;
+		this.descricao = descricao;
+		this.horasPlanejadas = horasPlanejadas;
+	}
+
 	public Long getId() {
 		return id;
 	}
