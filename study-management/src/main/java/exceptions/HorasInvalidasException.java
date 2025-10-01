@@ -1,6 +1,6 @@
 package exceptions;
 
-public class HorasInvalidasException extends Exception {
+public class HorasInvalidasException extends RuntimeException {
 
 	public HorasInvalidasException() {
 		super("Valor digitado inválido!");
