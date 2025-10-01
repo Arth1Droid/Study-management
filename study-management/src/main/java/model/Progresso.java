@@ -12,6 +12,10 @@ public class Progresso {
 		this.comentario = comentario;
 	}
 
+	public Progresso() {
+		// TODO Auto-generated constructor stub
+	}
+
 	public Long getId() {
 		return id;
 	}

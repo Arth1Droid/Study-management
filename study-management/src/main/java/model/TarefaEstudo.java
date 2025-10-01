@@ -21,6 +21,10 @@ public class TarefaEstudo {
 		this.dataTermino = dataTermino;
 	}
 
+	public TarefaEstudo() {
+
+	}
+
 	public Long getId() {
 		return id;
 	}

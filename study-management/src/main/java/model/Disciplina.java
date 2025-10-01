@@ -20,6 +20,10 @@ public class Disciplina {
 		this.horasPlanejadas = horasPlanejadas;
 	}
 
+	public Disciplina() {
+		// TODO Auto-generated constructor stub
+	}
+
 	public Long getId() {
 		return id;
 	}
